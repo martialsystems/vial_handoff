@@ -2,7 +2,7 @@
 
 If we take living mid-bridge morsus k-NN flies (already past fruit-off, already rasping films) and put them in the culex kitchen (finite engorged mosquitoes, no mammal skin, no exudate), can they add a gut probe and live on stolen midgut blood?
 
-No. 0 of 3 hand-off seeds. They lived on hemolymph. Stolen share never held. gut_probe stayed untrained. This is fail-predator, not a culex-cliff replay. Blank-founder culex remains `ddb73a8` / science `fa819c7`. Do not average.
+No. 0 of 3 hand-off seeds. They lived on hemolymph. Stolen share never held. gut_probe stayed untrained. This is fail-predator, not a culex-cliff replay. Blank-founder culex remains `ddb73a8` / science `fa819c7`. Do not average. Science lock `e843b8c`.
 
 Parents: [vial_morsus](https://github.com/martialsystems/vial_morsus) `69f4f6d` at t_snap=200 (n=1,200, sweat+wound about 0.98). [vial_culex](https://github.com/martialsystems/vial_culex) kitchen, exudate off.
 

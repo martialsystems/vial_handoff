@@ -19,6 +19,7 @@ def test_readme() -> None:
     assert "ddb73a8" in text
     assert "fa819c7" in text
     assert "69f4f6d" in text
+    assert "e843b8c" in text
     assert ".venv/bin/python -m pytest" in text
     assert "12835f747d6360781f3cc7f91f243178" in text
     agents = (REPO / "AGENTS.md").read_text(encoding="utf-8")
