@@ -1,0 +1,10 @@
+{
+  "runtime_checks": [
+    {
+      "id": "unit-tests",
+      "argv": [".venv/bin/python", "-m", "pytest", "tests/", "-q"],
+      "timeout_s": 180,
+      "paths": ["src/**", "tests/**", "README.md", "AGENTS.md", "LONG_ARM.md", "pyproject.toml", "maps/**"]
+    }
+  ]
+}

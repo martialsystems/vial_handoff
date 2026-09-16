@@ -1,0 +1,22 @@
+{
+  "source": "vial_morsus",
+  "t_snap": 200,
+  "t_snap_max": 349,
+  "banned_t": [398, 399, 400],
+  "required_source_traits": ["rasp", "fluid_detect", "seek", "digest", "heme_safe"],
+  "copy_alleles": {
+    "rasp": "cuticle_rasp",
+    "digest": "digest",
+    "heme_safe": "heme_safe",
+    "fruit_use": "fruit_use"
+  },
+  "find_mosquito": {
+    "fluid_detect": 0.5,
+    "seek": 0.5
+  },
+  "not_mapped": ["pierce", "saliva", "bite_motor"],
+  "new_draw": {
+    "gut_probe": {"dist": "normal", "mean": 0.0, "sd": 0.08}
+  },
+  "z_max": 3.0
+}
