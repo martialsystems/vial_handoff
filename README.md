@@ -24,6 +24,20 @@ Film-rasp flies became mosquito predators (rasp × find). They did not add a gut
 
 Halt. No 10k.
 
+## Methods card
+
+Copied from `METHODS.yaml`.
+
+| Field | Value |
+|-------|-------|
+| Object | unconstrained evolutionary toy |
+| Status | Halt |
+| Falsifier | at least 2 of 3 seeds hold stolen midgut blood rather than hemolymph |
+| n / seeds | PASS requires at least 2 of 3; 0 of 3 is a fail |
+| Science lock | `12d6952` |
+| Pre-specified | false |
+
+
 ## How to run
 
 ```text
@@ -43,6 +57,8 @@ python3.12 -m venv .venv
 | `src/vial_handoff/` | snapshot, replay, mapping, mosquitoes, fitness, mating, population, cli |
 | `maps/morsus_to_culex.json` | lossy trait map |
 | `data/morsus_locks/` | read-only copies of morsus k-NN origin JSON |
+| `METHODS.yaml` | Methods card |
+| `CITATION.cff` | Citation file; DOI empty until a deposit exists |
 | `AGENTS.md` | laws, claim bans, VBD |
 | `LONG_ARM.md` | halt; next legal node: none |
 | `logs/handoff_2500_s{1,2,3}.json` | hand-off knn locks |

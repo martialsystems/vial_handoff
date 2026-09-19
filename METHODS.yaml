@@ -1,0 +1,16 @@
+question: If we take living mid-bridge morsus k-NN flies (already past fruit-off, already rasping films) and put them in the culex kitchen (finite engorged mosquitoes, no mammal skin, no exudate), can they add a gut probe and live on stolen midgut blood?
+falsifier: at least 2 of 3 seeds hold stolen midgut blood rather than hemolymph
+object: unconstrained evolutionary toy
+status: Halt
+system: morsus t_snap=200 genomes into culex kitchen; exudate off
+data_version: closed-form QTL vial; templates not the stepper
+neuron_table: named types only
+dynamics: closed-form QTL; handoff
+rng: numpy.random.default_rng(seed)
+n_seeds: 3
+n_meaning: PASS requires at least 2 of 3; 0 of 3 is a fail
+locked_metric: 0 of 3; hemolymph share 1.000; science e843b8c
+pre_specified: false
+science_lock: 12d6952
+parent_sha: "69f4f6d"
+reduction: fail-predator; gut_probe stayed untrained

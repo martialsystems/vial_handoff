@@ -29,3 +29,14 @@ def test_readme() -> None:
     assert "Do not pin GraphForge" in agents
     assert "Do not restamp" in agents
     assert (REPO / "LICENSE").is_file()
+
+
+def test_methods_card_and_citation() -> None:
+    methods = (REPO / "METHODS.yaml").read_text(encoding="utf-8")
+    assert "science_lock:" in methods
+    assert "pre_specified: false" in methods
+    assert "—" not in methods
+    assert "What it is not" not in methods
+    cite = (REPO / "CITATION.cff").read_text(encoding="utf-8")
+    assert "cff-version: 1.2.0" in cite
+    assert "Martial Systems LLC" in cite
